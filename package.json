@@ -1,0 +1,31 @@
+{
+    "name": "amp-story-snippets",
+    "displayName": "AMP Story Snippets",
+    "description": "A collection of snippets for creating AMP Stories.",
+    "author": {
+        "name": "andrewghood"
+    },
+    "publisher": "andrewghood",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.41.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "'html'",
+                "path": "./snippets/snippets.json"
+            }
+        ]
+    },
+    "dependencies": {
+        "vsce": "^1.71.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/andrewghood/amp-story-snippets.git"
+    }
+}

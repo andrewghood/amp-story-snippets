@@ -1,0 +1,85 @@
+{
+	"Create the AMP-story standalone boilerplate": {
+		"scope": "html",
+		"prefix": "amp-story standalone",
+		"body": [
+            "<amp-story standalone>",
+				"\t<amp-story-page id=\"1\">",
+					"\t\t<amp-story-grid-layer template=\"\">",
+						"\t\t\t<amp-img src=\"\">",
+						"",
+						"\t\t\t</amp-img>",
+					"\t\t</amp-story-grid-layer>",
+					"\t\t<amp-story-grid-layer template=\"\">",
+					"",
+					"\t\t</amp-story-grid-layer>",
+				"\t</amp-story-page>",
+				"",
+				"\t<amp-story-page id=\"2\">",
+					"\t\t<amp-story-grid-layer template=\"\">",
+						"\t\t\t<amp-img src=\"\" layout=\"\">",
+						"",
+						"\t\t\t</amp-img>",
+					"\t\t</amp-story-grid-layer>",
+					"\t\t<amp-story-grid-layer template=\"\">",
+					"",
+					"\t\t</amp-story-grid-layer>",
+				"\t</amp-story-page>",
+				"",
+				"\t<!-- Bookend -->",
+				"\t<amp-story-bookend src=\"\" layout=\"nodisplay\">",
+				"\t</amp-story-bookend>",
+			"</amp-story>"
+		],
+		"description": "Creates the standalone boilerplate for an AMP story with two pages, each containing two layers, and the bookend."
+	},
+	"Create an AMP story page": {
+		"scope": "html",
+		"prefix": "amp-story-page",
+		"body": [
+			"<amp-story-page id=\"\">",
+			"",
+			"</amp-story-page>"
+		],
+		"description": "Creates an AMP story page. Enter a numeric value in the id corresponding to page's position."
+	},
+	"Create an AMP story grid layer": {
+		"scope": "html",
+		"prefix": "amp-story-grid",
+		"body": [
+			"<amp-story-grid-layer template=\"\">",
+			"",
+			"</amp-story-grid-layer>"
+		],
+		"description": "Creates an AMP story grid layer. This tag goes within the amp-story-page. Enter a template value like fill, vertical, horizontal, thirds to arrange child tags within the layer."
+	},
+	"Create a call to action in AMP story": {
+		"scope": "html",
+		"prefix": "amp-story-cta",
+		"body": [
+			"<amp-story-cta-layer>",
+			"\t <a href=\"\" class=\"button\">Insert text here</a>",
+			"</amp-story-cta-layer>"
+		],
+		"description": "Creates an AMP story call to action. Use this to invite users to press a button and follow a link. This layer will align itself to the bottom and occupies 20% height."
+	},
+	"Create the AMP story bookend": {
+		"scope": "html",
+		"prefix": "amp-story-bookend",
+		"body": [
+			"<amp-story-bookend src=\"\" layout=\"nodisplay\">",
+			"</amp-story-bookend>"
+		],
+		"description": "Creates a bookend at the bottom of AMP story for credits, links and sharing options. Use a JSON in the src field to insert content, or place script tag within the bookend."
+    },
+    "Create an AMP Story page attachment": {
+        "scope": "html",
+        "prefix": "amp-story-page-attachment",
+        "body": [
+            "<amp-story-page-attachment layout=\"nodisplay\" data-cta-text=\"\">",
+            "",
+            "</amp-story-page-attachment>"
+        ],
+        "description": "Creates a page attachment, activated by swiping up or clicking a prompt. Place this after closing preceding amp-story-grid-layer."
+    }
+}
