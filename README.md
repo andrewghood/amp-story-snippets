@@ -1,1 +1,1 @@
-# amp-story-snippers
+# amp-story-snippets
